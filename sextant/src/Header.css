@@ -1,0 +1,23 @@
+﻿.Header
+{
+  box-sizing: border-box;
+
+  /* how much horizontal space */
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  /* space above and below text */
+  padding: 2em;
+
+  /* space below the header */
+  margin-bottom: 2em;
+
+  /* background color */
+  background-color: rgb(0, 45, 100);
+
+  /* text color */
+  color: #fff;
+}
