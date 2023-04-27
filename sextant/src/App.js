@@ -4,6 +4,7 @@ import './Header.css'
 
 import Exhibition from './Exhibition'
 import GetIP from './GetIP'
+import Latency from './Latency'
 
 function App() {
   return (
@@ -18,7 +19,11 @@ function App() {
 
         <Exhibition header="This is your IPv6 address">
             <GetIP version ='6'/>
-        </Exhibition>
+          </Exhibition>
+          <Exhibition header="Latency from Pylon (in ms)">
+              <Latency />
+          </Exhibition >
+
  
     </div>
   );
